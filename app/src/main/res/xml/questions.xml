@@ -1,0 +1,47 @@
+﻿<!--
+Each questions is tagged with <Q> value, dif attribute is the questions difficulty
+Each answer inside a Questions has <A> value, the correct answer is tagged with <CA>
+If two <CA> in same questions, last one will be used
+if more than 4 <A> in a questions, only 4 first will be used
+if less than 4 answers for questions or no CA, the question will NOT be loaded
+
+Intended to work on previous versions of LightQuiz
+-->
+<LightQuiz version="0.1">
+    <Q>Name of Spain Capital
+        <A>Barcelona</A>
+        <CA>Madrid</CA>
+        <A>Granada</A>
+        <A>New York</A>
+    </Q>
+    <Q>A female android is a ...
+        <A>Androida</A>
+        <A>Androidres</A>
+        <A>F-android</A>
+        <CA>Gynoid</CA>
+    </Q>
+    <Q>Which is bigger?
+        <CA>Exabyte</CA>
+        <A>Megabyte</A>
+        <A>Petabyte</A>
+        <A>Terabyte</A>
+    </Q>
+    <Q>A Koala-Bear is a ...
+        <A>Bear</A>
+        <A>Lazy fish</A>
+        <CA>Marsupial</CA>
+        <A>Feline</A>
+    </Q>
+    <Q>2+3*2=
+        <A>10</A>
+        <A>7</A>
+        <CA>8</CA>
+        <A>4</A>
+    </Q>
+    <Q>Android was developed by
+        <CA>Google</CA>
+        <A>Android Inc.</A>
+        <A>Apple</A>
+        <A>Oracle</A>
+    </Q>
+</LightQuiz>

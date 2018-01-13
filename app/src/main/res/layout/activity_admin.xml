@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3F51B5"
+
+    tools:context="com.sifatsdroid.quizapp.Admin">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:id="@+id/addQues"
+        android:background="@drawable/blue_button"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textSize="20sp"
+        android:hint="admin's mail"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save mail"
+        android:background="@drawable/blue_button"
+        android:textColor="#fff"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_duration"
+        android:textSize="20sp"
+        android:hint="Set quiz duration (seconds)"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Duration"
+        android:background="@drawable/blue_button"
+        android:textColor="#fff"
+        android:id="@+id/button_time"
+        android:gravity="center"
+        android:layout_below="@+id/editText_duration"
+        android:layout_alignLeft="@+id/addQues"
+        android:layout_alignStart="@+id/addQues" />
+</RelativeLayout>
